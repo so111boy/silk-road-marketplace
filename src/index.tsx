@@ -10,8 +10,11 @@ import { Links } from "./pages/links";
 import { Projects } from "./pages/projects";
 import { Donate } from "./pages/donate";
 import { NotFound } from "./pages/_404";
+import { Swap } from "./pages/swap";
 
 import "./style.css";
+
+import { JupiterTerminal } from "./components/JupiterTerminal";
 
 export function App() {
 	return (
@@ -30,6 +33,7 @@ export function App() {
 				</div>
 			</div>
 			<Footer/>
+			<JupiterTerminal />
 		</LocationProvider>
 	);
 }

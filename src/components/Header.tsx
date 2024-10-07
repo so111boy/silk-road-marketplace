@@ -33,7 +33,7 @@ export function Header() {
 					<input class="text-[20px] rounded-r-lg text-gray-dark px-3 search-button py-2 border-[1px] border-gray-light disabled:cursor-not-allowed" type="button" value="Go" disabled/>
 
 					<div class="flex flex-col items-end ml-auto mr-5">
-						<p class="text-xl">Hi, <b>{meta.author}</b></p>
+						<p class="text-xl">Hi, <b>degenerates</b></p>
 						<div class="flex">
 							<a class="text-brand italic cursor-not-allowed">settings</a>
 							<p class="text-brand italic font-medium mx-2">-</p>
